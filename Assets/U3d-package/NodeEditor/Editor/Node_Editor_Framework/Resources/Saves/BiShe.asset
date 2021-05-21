@@ -1,0 +1,720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8403650009999180052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362e3c2ba9ef48b8816fab010bbed3b8, type: 3}
+  m_Name: "\u884C\u4E3A\u6811\u6839\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQENAAAATQBSAG8AbwB0AE4AbwBkAGUARABhAHQAYQAvAAAAAAEkAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFIAbwBvAHQATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAAAAAAAAAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQABAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUtAQcAAABOAG8AZABlAEQAZQBzAC0BBgAAAG0AXwBSAG8AbwB0AAU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 493.7, y: -364.9}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -292055837802345024}
+  backgroundColor: {r: 0, g: 0.7490196, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  NextNode: {fileID: -292055837802345024}
+--- !u!114 &-6092280075373035193
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -3954005149512860272}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: -3863828666819981375}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-4887066888769322942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a76df7ad194f4fb27c7cf808370fd4, type: 3}
+  m_Name: "\u9009\u62E9\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQETAAAATgBQAF8AUwBlAGwAZQBjAHQAbwByAE4AbwBkAGUARABhAHQAYQAvAAAAAAEoAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFMAZQBsAGUAYwB0AG8AcgBOAG8AZABlAEQAYQB0AGEALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAGwECAAAAaQBkAAAAAAAAAAAAHQEIAAAATgBvAGQAZQBUAHkAcABlAAAAAAAAAAAAAQEJAAAATABpAG4AawBlAGQASQBkAHMALwEAAAABRQAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBScBBwAAAE4AbwBkAGUARABlAHMAAQUAAAAJkOlixH4IVGhWBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -122.5, y: -296.5}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 2185099218652112939}
+  - {fileID: -2205205332195523075}
+  backgroundColor: {r: 0.49803922, g: 1, b: 0, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 2185099218652112939}
+  NextNode: {fileID: -2205205332195523075}
+--- !u!114 &-3954005149512860272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7b4a4df8ee4bae93c0dba11eae2097, type: 3}
+  m_Name: "\u9ED1\u677F\u6761\u4EF6\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEeAAAATgBQAF8AQgBsAGEAYwBrAGIAbwBhAHIAZABDAG8AbgBkAGkAdABpAG8AbgBOAG8AZABlAEQAYQB0AGEALwAAAAABMwAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBCAGwAYQBjAGsAYgBvAGEAcgBkAEMAbwBuAGQAaQB0AGkAbwBuAE4AbwBkAGUARABhAHQAYQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAAAAAAbAQIAAABpAGQAAAAAAAAAAAAdAQgAAABOAG8AZABlAFQAeQBwAGUAAQAAAAAAAAABAQkAAABMAGkAbgBrAGUAZABJAGQAcwAvAQAAAAFFAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ATABpAHMAdABgADEAWwBbAFMAeQBzAHQAZQBtAC4ASQBuAHQANgA0ACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFJwEHAAAATgBvAGQAZQBEAGUAcwABBAAAAAt3MFKpc7ZbHQEDAAAATwBwAGUAAgAAAAAAAAAdAQQAAABTAHQAbwBwAAQAAAAAAAAAAQEYAAAATgBQAEIAYQBsAGMAawBCAG8AYQByAGQAUgBlAGwAYQB0AGkAbwBuAEQAYQB0AGEALwIAAAABLgAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBCAGwAYQBjAGsAQgBvAGEAcgBkAFIAZQBsAGEAdABpAG8AbgBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAgAAAC0BBQAAAEIAQgBLAGUAeQAtAQ4AAABOAFAAXwBCAEIAVgBhAGwAdQBlAFQAeQBwAGUAKwESAAAAVwByAGkAdABlAE8AcgBDAG8AbQBwAGEAcgBlAFQAbwBCAEIAAS0BCgAAAE4AUABfAEIAQgBWAGEAbAB1AGUABQU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -256.5, y: -149.5}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 5474579381379631024}
+  - {fileID: -6092280075373035193}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 5474579381379631024}
+  NextNode: {fileID: -6092280075373035193}
+--- !u!114 &-3933011523137702178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 8815656791535691876}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: 5000985220394539687}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-3863828666819981375
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 2375885530681344472}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -6092280075373035193}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-3387570377677260416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597622815e619cc46840c0a99e899475, type: 3}
+  m_Name: "\u884C\u4E3A\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQERAAAATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhAC8AAAAAASYAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAAAAAAAAAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQACAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUnAQcAAABOAG8AZABlAEQAZQBzAAEIAAAAwGjlZy9mJlQLdzBSqXO2WwEBFQAAAE4AcABDAGwAYQBzAHMARgBvAHIAUwB0AG8AcgBlAEEAYwB0AGkAbwBuAC8CAAAAASEAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8ATABvAGcAQQBjAHQAaQBvAG4ALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAACAAAAGwEGAAAAVQBuAGkAdABpAGQAAAAAAAAAAAAtARMAAABCAGUAbABvAG4AZwB0AG8AUgB1AG4AdABpAG0AZQBUAHIAZQBlAC0BBgAAAEEAYwB0AGkAbwBuAC0BBQAAAEYAdQBuAGMAMQAtAQUAAABGAHUAbgBjADIALQEHAAAATABvAGcASQBuAGYAbwAFBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 345.7, y: -53.899994}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 6950044295669006403}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 6950044295669006403}
+--- !u!114 &-2545963699980184106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 7853436556503971108}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -292055837802345024}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-2303434084620713246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 1895795335925038330}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 2185099218652112939}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-2205205332195523075
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -4887066888769322942}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 5474579381379631024}
+  - {fileID: -2204946201448068481}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-2204946201448068481
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 8155618953905183414}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -2205205332195523075}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-292055837802345024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -8403650009999180052}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: -2545963699980184106}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bb11d85bbf4e7b99274f475a2d902b, type: 3}
+  m_Name: BiShe
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEQAAAATQBOAHAARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgAvAAAAAAElAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAAQEPAAAAQgB1AGYAZgBOAG8AZABlAEQAYQB0AGEARABpAGMALwEAAAABcwAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEQAaQBjAHQAaQBvAG4AYQByAHkAYAAyAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAEUAVABNAG8AZABlAGwALgBCAHUAZgBmAE4AbwBkAGUARABhAHQAYQBCAGEAcwBlACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAEBCAAAAGMAbwBtAHAAYQByAGUAcgAvAgAAAAFYAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ARwBlAG4AZQByAGkAYwBFAHEAdQBhAGwAaQB0AHkAQwBvAG0AcABhAHIAZQByAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAABQYAAAAAAAAAAAcFAQETAAAATgBwAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIAQgBhAHMAZQAvAwAAAAEpAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIAQgBhAHMAZQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAMAAAAbAQYAAABSAG8AbwB0AEkAZAAAAAAAAAAAAAEBEwAAAE4AUABfAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIARABpAGMALwQAAAABcgAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEQAaQBjAHQAaQBvAG4AYQByAHkAYAAyAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAEUAVABNAG8AZABlAGwALgBOAFAAXwBOAG8AZABlAEQAYQB0AGEAQgBhAHMAZQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAQAAAAJAQgAAABjAG8AbQBwAGEAcgBlAHIAAgAAAAYAAAAAAAAAAAcFAQERAAAATgBQAF8AQgBCAFYAYQBsAHUAZQBNAGEAbgBhAGcAZQByAC8FAAAAAXgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBEAGkAYwB0AGkAbwBuAGEAcgB5AGAAMgBbAFsAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAEUAVABNAG8AZABlAGwALgBCAEIAVgBhAGwAdQBlAHMALgBBAE4AUABfAEIAQgBWAGEAbAB1AGUALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbABdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgAFAAAAAQEIAAAAYwBvAG0AcABhAHIAZQByAC8GAAAAAVkAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBHAGUAbgBlAHIAaQBjAEUAcQB1AGEAbABpAHQAeQBDAG8AbQBwAGEAcgBlAHIAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIABgAAAAUGAAAAAAAAAAAHBQUFAQERAAAATQBOAHAARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgAxADAAAAAABwAAAAEBDwAAAEIAdQBmAGYATgBvAGQAZQBEAGEAdABhAEQAaQBjADABAAAACAAAAAkBCAAAAGMAbwBtAHAAYQByAGUAcgACAAAABgAAAAAAAAAABwUBARMAAABOAHAARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgBCAGEAcwBlADADAAAACQAAABsBBgAAAFIAbwBvAHQASQBkAAAAAAAAAAAAAQETAAAATgBQAF8ARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgBEAGkAYwAwBAAAAAoAAAAJAQgAAABjAG8AbQBwAGEAcgBlAHIAAgAAAAYAAAAAAAAAAAcFAQERAAAATgBQAF8AQgBCAFYAYQBsAHUAZQBNAGEAbgBhAGcAZQByADAFAAAACwAAAAkBCAAAAGMAbwBtAHAAYQByAGUAcgAGAAAABgAAAAAAAAAABwUFBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  editorStates:
+  - {fileID: 790387627614983704}
+  saveName: Assets\Plugins\NodeEditor\Editor\Node_Editor_Framework\Resources\Saves\BiShe
+  savePath: Assets\Plugins\NodeEditor\Editor\Node_Editor_Framework\Resources\Saves\BiShe.asset
+  nodes:
+  - {fileID: 1895795335925038330}
+  - {fileID: 8155618953905183414}
+  - {fileID: 2375885530681344472}
+  - {fileID: -8403650009999180052}
+  - {fileID: 7853436556503971108}
+  - {fileID: 8815656791535691876}
+  - {fileID: -4887066888769322942}
+  - {fileID: -3954005149512860272}
+  - {fileID: -3387570377677260416}
+  nodesForDelete: []
+  groups:
+  - rect:
+      serializedVersion: 2
+      x: 274.7
+      y: -485.9
+      width: 596
+      height: 544
+    title: "2\u30023\u30022"
+    _color: {r: 0.8585284, g: 0.5802046, b: 0.07985734, a: 1}
+    TextSize: 25
+  - rect:
+      serializedVersion: 2
+      x: -341.3
+      y: -481.9
+      width: 575
+      height: 540
+    title: 2.3.1
+    _color: {r: 0.6802958, g: 0.7616722, b: 0.27946597, a: 1}
+    TextSize: 25
+  Name: 
+  SavePath: 
+  npBehaveCanvasDataManager: {fileID: 0}
+--- !u!114 &790387627614983704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  selectedNodes:
+  - {fileID: -3387570377677260416}
+  panOffset: {x: -297.2, y: 188.4}
+  zoom: 1.6
+  boxSelecting: 0
+--- !u!114 &1895795335925038330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362e3c2ba9ef48b8816fab010bbed3b8, type: 3}
+  m_Name: "\u884C\u4E3A\u6811\u6839\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQENAAAATQBSAG8AbwB0AE4AbwBkAGUARABhAHQAYQAvAAAAAAEkAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFIAbwBvAHQATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAAAAAAAAAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQABAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUtAQcAAABOAG8AZABlAEQAZQBzAC0BBgAAAG0AXwBSAG8AbwB0AAU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -123.5, y: -428.5}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -2303434084620713246}
+  backgroundColor: {r: 0, g: 0.7490196, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  NextNode: {fileID: -2303434084620713246}
+--- !u!114 &2185099218652112939
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -4887066888769322942}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -2303434084620713246}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &2375885530681344472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597622815e619cc46840c0a99e899475, type: 3}
+  m_Name: "\u884C\u4E3A\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQERAAAATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhAC8AAAAAASYAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAAAAAAAAAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQACAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUnAQcAAABOAG8AZABlAEQAZQBzAAEEAAAAyWLNVGaLpWIBARUAAABOAHAAQwBsAGEAcwBzAEYAbwByAFMAdABvAHIAZQBBAGMAdABpAG8AbgAvAgAAAAEhAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAEwAbwBnAEEAYwB0AGkAbwBuACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAgAAABsBBgAAAFUAbgBpAHQAaQBkAAAAAAAAAAAALQETAAAAQgBlAGwAbwBuAGcAdABvAFIAdQBuAHQAaQBtAGUAVAByAGUAZQAtAQYAAABBAGMAdABpAG8AbgAtAQUAAABGAHUAbgBjADEALQEFAAAARgB1AG4AYwAyAC0BBwAAAEwAbwBnAEkAbgBmAG8ABQU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -256.5, y: -14.5}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -3863828666819981375}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: -3863828666819981375}
+--- !u!114 &5000985220394539687
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 7853436556503971108}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 6950044295669006403}
+  - {fileID: -3933011523137702178}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &5474579381379631024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -3954005149512860272}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -2205205332195523075}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &6950044295669006403
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -3387570377677260416}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: 5000985220394539687}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &7853436556503971108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1b7334dc4097f4983e31d4320a9a08, type: 3}
+  m_Name: "\u5E8F\u5217\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQETAAAATgBQAF8AUwBlAHEAdQBlAG4AYwBlAE4AbwBkAGUARABhAHQAYQAvAAAAAAEoAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFMAZQBxAHUAZQBuAGMAZQBOAG8AZABlAEQAYQB0AGEALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAGwECAAAAaQBkAAAAAAAAAAAAHQEIAAAATgBvAGQAZQBUAHkAcABlAAAAAAAAAAAAAQEJAAAATABpAG4AawBlAGQASQBkAHMALwEAAAABRQAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBScBBwAAAE4AbwBkAGUARABlAHMAAQUAAACPXhdSxH4IVGhWBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 494.7, y: -220.9}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -2545963699980184106}
+  - {fileID: 5000985220394539687}
+  backgroundColor: {r: 0, g: 0.9607843, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: -2545963699980184106}
+  NextNode: {fileID: 5000985220394539687}
+--- !u!114 &8155618953905183414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e386ab1a854693be222aae41ab15b6, type: 3}
+  m_Name: "\u4E00\u76F4\u7B49\u5F85\uFF0C\u76F4\u5230Stopped"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEWAAAATgBwAFcAYQBpAHQAVQBuAHQAaQBsAFMAdABvAHAAcABlAGQARABhAHQAYQAvAAAAAAEsAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFcAYQBpAHQAVQBuAHQAaQBsAFMAdABvAHAAcABlAGQARABhAHQAYQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAAAAAAbAQIAAABpAGQAAAAAAAAAAAAdAQgAAABOAG8AZABlAFQAeQBwAGUAAgAAAAAAAAABAQkAAABMAGkAbgBrAGUAZABJAGQAcwAvAQAAAAFFAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ATABpAHMAdABgADEAWwBbAFMAeQBzAHQAZQBtAC4ASQBuAHQANgA0ACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFJwEHAAAATgBvAGQAZQBEAGUAcwABCQAAADuWYmtuj+KLDP/QY9iaSGWHcwU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 25.5, y: -143.5}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -2204946201448068481}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: -2204946201448068481}
+--- !u!114 &8815656791535691876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597622815e619cc46840c0a99e899475, type: 3}
+  m_Name: "\u884C\u4E3A\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQERAAAATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhAC8AAAAAASYAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAAAAAAAAAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQACAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUnAQcAAABOAG8AZABlAEQAZQBzAAEEAAAAyWLNVGaLpWIBARUAAABOAHAAQwBsAGEAcwBzAEYAbwByAFMAdABvAHIAZQBBAGMAdABpAG8AbgAvAgAAAAEhAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAEwAbwBnAEEAYwB0AGkAbwBuACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAgAAABsBBgAAAFUAbgBpAHQAaQBkAAAAAAAAAAAALQETAAAAQgBlAGwAbwBuAGcAdABvAFIAdQBuAHQAaQBtAGUAVAByAGUAZQAtAQYAAABBAGMAdABpAG8AbgAtAQUAAABGAHUAbgBjADEALQEFAAAARgB1AG4AYwAyAC0BBwAAAEwAbwBnAEkAbgBmAG8ABQU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 631.7, y: -55.899994}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -3933011523137702178}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: -3933011523137702178}

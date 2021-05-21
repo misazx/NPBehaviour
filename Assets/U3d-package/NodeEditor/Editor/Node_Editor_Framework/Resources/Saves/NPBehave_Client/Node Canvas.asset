@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7589170492229941151
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  selectedNodes:
+  - {fileID: 3642113010590163238}
+  panOffset: {x: 0, y: 0}
+  zoom: 1.4
+  boxSelecting: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bb11d85bbf4e7b99274f475a2d902b, type: 3}
+  m_Name: Node Canvas
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: LQEKAAAAQwBvAG4AZgBpAGcAVAB5AHAAZQABARAAAABNAE4AcABEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAC8AAAAAASUAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8ARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAAAAAABARMAAABOAHAARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgBCAGEAcwBlAC8BAAAAASkAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8ARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgBCAGEAcwBlACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAQAAABsBEgAAAE4AUABCAGUAaABhAHYAZQBUAHIAZQBlAEQAYQB0AGEASQBkAAAAAAAAAAAAAQETAAAATgBQAF8ARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgBEAGkAYwAvAgAAAAFyAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ARABpAGMAdABpAG8AbgBhAHIAeQBgADIAWwBbAFMAeQBzAHQAZQBtAC4ASQBuAHQANgA0ACwAIABtAHMAYwBvAHIAbABpAGIAXQAsAFsARQBUAE0AbwBkAGUAbAAuAE4AUABfAE4AbwBkAGUARABhAHQAYQBCAGEAcwBlACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAEBCAAAAGMAbwBtAHAAYQByAGUAcgAvAwAAAAFYAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ARwBlAG4AZQByAGkAYwBFAHEAdQBhAGwAaQB0AHkAQwBvAG0AcABhAHIAZQByAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABQYAAAAAAAAAAAcFAQERAAAATgBQAF8AQgBCAFYAYQBsAHUAZQBNAGEAbgBhAGcAZQByAC8EAAAAAXgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBEAGkAYwB0AGkAbwBuAGEAcgB5AGAAMgBbAFsAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAEUAVABNAG8AZABlAGwALgBCAEIAVgBhAGwAdQBlAHMALgBBAE4AUABfAEIAQgBWAGEAbAB1AGUALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbABdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgAEAAAAAQEIAAAAYwBvAG0AcABhAHIAZQByAC8FAAAAAVkAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBHAGUAbgBlAHIAaQBjAEUAcQB1AGEAbABpAHQAeQBDAG8AbQBwAGEAcgBlAHIAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIABQAAAAUGAAAAAAAAAAAHBQUFAQERAAAATQBOAHAARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgAxADAAAAAABgAAAAEBEwAAAE4AcABEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAEIAYQBzAGUAMAEAAAAHAAAAGwESAAAATgBQAEIAZQBoAGEAdgBlAFQAcgBlAGUARABhAHQAYQBJAGQAAAAAAAAAAAABARMAAABOAFAAXwBEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAEQAaQBjADACAAAACAAAAAkBCAAAAGMAbwBtAHAAYQByAGUAcgADAAAABgAAAAAAAAAABwUBAREAAABOAFAAXwBCAEIAVgBhAGwAdQBlAE0AYQBuAGEAZwBlAHIAMAQAAAAJAAAACQEIAAAAYwBvAG0AcABhAHIAZQByAAUAAAAGAAAAAAAAAAAHBQUF
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  editorStates:
+  - {fileID: -7589170492229941151}
+  saveName: Assets\U3d-package\NodeEditor\Editor\Node_Editor_Framework\Resources\Saves\NPBehave_Client\Node
+    Canvas
+  savePath: Assets\U3d-package\NodeEditor\Editor\Node_Editor_Framework\Resources\Saves\NPBehave_Client\Node
+    Canvas.asset
+  nodes:
+  - {fileID: 3642113010590163238}
+  nodesForDelete: []
+  groups:
+  - rect:
+      serializedVersion: 2
+      x: -496.0667
+      y: -173.3667
+      width: 400
+      height: 400
+    title: "\u4EFB\u52A1\u6761\u4EF6"
+    _color: {r: 0.7762974, g: 0.90083873, b: 0.2756325, a: 1}
+    TextSize: 25
+  - rect:
+      serializedVersion: 2
+      x: 44.333317
+      y: -166.36667
+      width: 400
+      height: 400
+    title: Update
+    _color: {r: 0.44308746, g: 0.9834555, b: 0.5528901, a: 1}
+    TextSize: 25
+  Name: 
+  Config: {fileID: 0}
+  IdInConfig: 0
+  SavePath: 
+  npBehaveCanvasDataManager: {fileID: 0}
+--- !u!114 &3642113010590163238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362e3c2ba9ef48b8816fab010bbed3b8, type: 3}
+  m_Name: "\u884C\u4E3A\u6811\u6839\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQENAAAATQBSAG8AbwB0AE4AbwBkAGUARABhAHQAYQAvAAAAAAEkAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFIAbwBvAHQATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAAAAAAAAAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQABAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUtAQcAAABOAG8AZABlAEQAZQBzAC0BBgAAAG0AXwBSAG8AbwB0AAU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -43.333317, y: -371.09985}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 4558348515401797595}
+  backgroundColor: {r: 0, g: 0.7490196, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  NextNode: {fileID: 4558348515401797595}
+--- !u!114 &4558348515401797595
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 3642113010590163238}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections: []
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
