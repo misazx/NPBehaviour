@@ -111,5 +111,13 @@ namespace ETModel
             //        .AddSkillCanvas(belongToSkillId, result);
             return result;
         }
+
+        public static NP_RuntimeTree CreateTaskNpRuntimeTree(Unit unit, long nPDataId, long belongToTaskId)
+        {
+            NP_RuntimeTree result = CreateNpRuntimeTree(unit, nPDataId);
+            //unit.GetComponent<TaskCanvasManagerComponent>()
+            //        .AddSkillCanvas(belongToTaskId, result);
+            return result;
+        }
     }
 }

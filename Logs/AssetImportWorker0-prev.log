@@ -1,0 +1,474 @@
+Using pre-set license
+Built from '2020.2/china_unity/release' branch; Version is '2020.2.2f1c1 (e7e650540bb3) revision 15197776'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 15591 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UnityEditor\2020.2.2f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/U3DProject/testPackage
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63121
+Successfully changed project path to: D:/U3DProject/testPackage
+D:/U3DProject/testPackage
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1c1 (e7e650540bb3)
+[Subsystems] Discovering subsystems at path D:/UnityEditor/2020.2.2f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/U3DProject/testPackage/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   
+    VRAM:     7795 MB
+    Driver:   27.20.11024.15001
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/UnityEditor/2020.2.2f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditor/2020.2.2f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityEditor/2020.2.2f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditor/2020.2.2f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001223 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3310 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.7 MB.
+System memory in use after: 140.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3881.
+Total: 22.886400 ms (FindLiveObjects: 0.607100 ms CreateObjectMapping: 0.099200 ms MarkObjects: 22.053400 ms  DeleteObjects: 0.122300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3881.
+Total: 23.013200 ms (FindLiveObjects: 1.264600 ms CreateObjectMapping: 0.325600 ms MarkObjects: 21.402100 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset
+  artifactKey: Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset using Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744a453ea8df8abf1be0a08707efe130') in 0.215661 seconds
+  Import took 0.224284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.603423 seconds.
+  path: Assets/U3d-package/Quest/Decorator/NP_Task_RootNode.cs
+  artifactKey: Guid(545a619140a083f449549eb92b431ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/Quest/Decorator/NP_Task_RootNode.cs using Guid(545a619140a083f449549eb92b431ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f40a4bd528be7b7daacd66b5a41519') in 0.009656 seconds
+  Import took 0.016258 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.674 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.0 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 24.479900 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.143700 ms MarkObjects: 23.434400 ms  DeleteObjects: 0.357500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.9 MB.
+System memory in use after: 149.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 24.635900 ms (FindLiveObjects: 1.462900 ms CreateObjectMapping: 0.269700 ms MarkObjects: 22.879600 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.2 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 25.407800 ms (FindLiveObjects: 0.707800 ms CreateObjectMapping: 0.206900 ms MarkObjects: 24.017400 ms  DeleteObjects: 0.472200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 24.072200 ms (FindLiveObjects: 1.230700 ms CreateObjectMapping: 0.237600 ms MarkObjects: 22.580800 ms  DeleteObjects: 0.019300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.105864 seconds.
+  path: Assets/U3d-package/Quest/Editor
+  artifactKey: Guid(f7df9395302445b49a208e8b6ca8cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/Quest/Editor using Guid(f7df9395302445b49a208e8b6ca8cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67298bfa0e3df1cfcc64f8ba85d39586') in 0.010074 seconds
+  Import took 0.016879 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006443 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.521 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 24.300700 ms (FindLiveObjects: 0.718400 ms CreateObjectMapping: 0.155400 ms MarkObjects: 23.095300 ms  DeleteObjects: 0.327100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.0 MB.
+System memory in use after: 150.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 27.862600 ms (FindLiveObjects: 0.601700 ms CreateObjectMapping: 0.330600 ms MarkObjects: 26.909000 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.170007 seconds.
+  path: Assets/U3d-package/NodeEditor/NodeEditor.asmdef
+  artifactKey: Guid(098a6042c83101d488a54a163acfc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/NodeEditor.asmdef using Guid(098a6042c83101d488a54a163acfc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fd4fc44fa6f16d05a5c1d27f5aae9e') in 0.010126 seconds
+  Import took 0.016078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.657176 seconds.
+  path: Assets/U3d-package/NodeEditor/NodeEditor.asmdef
+  artifactKey: Guid(098a6042c83101d488a54a163acfc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/NodeEditor.asmdef using Guid(098a6042c83101d488a54a163acfc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e6fee3aa6efd30d8bff7e02524975f') in 0.004666 seconds
+  Import took 0.010833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.446706 seconds.
+  path: Assets/U3d-package/NodeEditor/NodeEditor.asmdef
+  artifactKey: Guid(098a6042c83101d488a54a163acfc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/NodeEditor.asmdef using Guid(098a6042c83101d488a54a163acfc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0314716c4b7edc639e6319ae8b731185') in 0.003660 seconds
+  Import took 0.009742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.272770 seconds.
+  path: Assets/U3d-package/Quest/Framework.Quest.asmdef
+  artifactKey: Guid(469865de08943324a957b3a1269ad949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/Quest/Framework.Quest.asmdef using Guid(469865de08943324a957b3a1269ad949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840f06955c746600ec8cfe841af0c0ec') in 0.002730 seconds
+  Import took 0.008264 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.447 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.4 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 24.716000 ms (FindLiveObjects: 0.674900 ms CreateObjectMapping: 0.269500 ms MarkObjects: 23.463800 ms  DeleteObjects: 0.303400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 23.251600 ms (FindLiveObjects: 0.573600 ms CreateObjectMapping: 0.150200 ms MarkObjects: 22.506300 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 23.598800 ms (FindLiveObjects: 0.611800 ms CreateObjectMapping: 0.252500 ms MarkObjects: 22.391300 ms  DeleteObjects: 0.340200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 150.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 23.323000 ms (FindLiveObjects: 0.472500 ms CreateObjectMapping: 0.094700 ms MarkObjects: 22.733900 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6913.316482 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset
+  artifactKey: Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset using Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff64d39cd5c640b261dcc7e23b2bf3') in 0.203900 seconds
+  Import took 0.210754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.219702 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset
+  artifactKey: Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset using Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864411e24088be1deb556e3286971c04') in 0.012145 seconds
+  Import took 0.019161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.485449 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_Q.asset
+  artifactKey: Guid(eab67d653b004f24b8d8635a95419b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_Q.asset using Guid(eab67d653b004f24b8d8635a95419b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1791224c4590c862ef690373732cceaa') in 0.034026 seconds
+  Import took 0.040833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.418133 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_Q.asset
+  artifactKey: Guid(eab67d653b004f24b8d8635a95419b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_Q.asset using Guid(eab67d653b004f24b8d8635a95419b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdeb0c6cb4eab1bd85bcad836b6f7cf') in 0.007456 seconds
+  Import took 0.013508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028767 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_Q.asset
+  artifactKey: Guid(eab67d653b004f24b8d8635a95419b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_Q.asset using Guid(eab67d653b004f24b8d8635a95419b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdeb0c6cb4eab1bd85bcad836b6f7cf') in 0.008203 seconds
+  Import took 0.014116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.413647 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset
+  artifactKey: Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset using Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7e39d25fd1023caceb3f9e1934c1ee') in 0.007294 seconds
+  Import took 0.012801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7892.032529 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset
+  artifactKey: Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Node Canvas.asset using Guid(2373422134b0ba94f98eb0cd5efbd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448422bca17a52e1e4f8cd714d753661') in 0.003910 seconds
+  Import took 0.011039 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+执行了BsonHelper初始化
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ETModel.Log:Info (string) (at Assets/U3d-package/Model/Base/Log.cs:19)
+ETModel.BsonHelper:.cctor () (at Assets/U3d-package/Model/Logic/Helpers/BsonHelper.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/U3d-package/Model/Base/Log.cs Line: 19)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.4 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 23.651100 ms (FindLiveObjects: 0.526500 ms CreateObjectMapping: 0.206100 ms MarkObjects: 22.572200 ms  DeleteObjects: 0.337800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 24.464000 ms (FindLiveObjects: 0.618600 ms CreateObjectMapping: 0.212400 ms MarkObjects: 23.609100 ms  DeleteObjects: 0.021900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 533.086272 seconds.
+  path: Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_E.asset
+  artifactKey: Guid(b1917f40ef4dbe04794dcf5bf867a514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/U3d-package/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/NPBehave_Client/Client_Darius_E.asset using Guid(b1917f40ef4dbe04794dcf5bf867a514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbf67123ab19b6f7013caf332d46af9') in 0.200772 seconds
+  Import took 0.207305 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

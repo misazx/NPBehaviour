@@ -30,6 +30,17 @@ namespace ETModel
             }
         }
 
+        private static Hotfix hotfix;
+
+        public static Hotfix Hotfix
+        {
+            get
+            {
+                return hotfix ?? (hotfix = new Hotfix());
+            }
+        }
+
+
         private static ObjectPool objectPool;
 
         public static ObjectPool ObjectPool

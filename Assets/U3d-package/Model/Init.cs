@@ -15,7 +15,7 @@ namespace ETModel
 
         private void Start()
         {
-            Define.ResModeIsEditor = this.GetComponent<Updater>().DevelopmentMode;
+            //Define.ResModeIsEditor = this.GetComponent<Updater>().DevelopmentMode;
             this.StartAsync().Coroutine();
         }
         
@@ -40,7 +40,7 @@ namespace ETModel
                 //Game.Scene.AddComponent<NetOuterComponent>();
                 Game.Scene.AddComponent<ResourcesComponent>();
                 //Game.Scene.AddComponent<PlayerComponent>();
-                //Game.Scene.AddComponent<UnitComponent>();
+                Game.Scene.AddComponent<UnitComponent>();
 
                 //Game.Scene.AddComponent<FUIPackageComponent>();
                 //Game.Scene.AddComponent<FUIComponent>();
@@ -53,12 +53,12 @@ namespace ETModel
 
                 //Game.Scene.AddComponent<OutLineComponent>();
 
-                //Game.Scene.AddComponent<GameObjectPool>();
+                Game.Scene.AddComponent<GameObjectPool>();
 
                 // 下载ab包 
                 await BundleHelper.DownloadBundle();
 
-                //Game.Hotfix.LoadHotfixAssembly();
+                Game.Hotfix.LoadHotfixAssembly();
 
                 //// 加载配置
                 //Game.Scene.AddComponent<ConfigComponent>();
@@ -66,11 +66,11 @@ namespace ETModel
                 //Game.Scene.AddComponent<OpcodeTypeComponent>();
                 //Game.Scene.AddComponent<MessageDispatcherComponent>();
 
-                Game.Scene.AddComponent<HeroBaseDataRepositoryComponent>();
+                //Game.Scene.AddComponent<HeroBaseDataRepositoryComponent>();
 
                 //Game.Scene.AddComponent<B2S_DebuggerComponent>();
 
-                //Game.Hotfix.GotoHotfix();
+                Game.Hotfix.GotoHotfix();
 
                 //Game.Scene.AddComponent<NP_SyncComponent>();
                 //Game.Scene.AddComponent<NP_TreeDataRepository>();

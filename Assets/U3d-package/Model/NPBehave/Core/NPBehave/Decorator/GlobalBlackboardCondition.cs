@@ -43,7 +43,7 @@ namespace NPBehave
         {
             get
             {
-                return SyncContext.GetSharedBlackboard("Task");
+                return SyncContext.GetSharedBlackboard("Global");
             }
         }
 
