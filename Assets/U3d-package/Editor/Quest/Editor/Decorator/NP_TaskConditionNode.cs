@@ -1,9 +1,3 @@
-//------------------------------------------------------------
-// Author: 烟雨迷离半世殇
-// Mail: 1778139321@qq.com
-// Data: 2019年8月23日 17:54:50
-//------------------------------------------------------------
-
 using ETModel;
 using NodeEditorFramework;
 using Plugins.NodeEditor.Editor.Canvas;
@@ -18,7 +12,7 @@ namespace Plugins.NodeEditor.Editor.NPBehaveNodes
         /// <summary>
         /// 内部ID
         /// </summary>
-        private const string Id = "任务条件结点";
+        private const string Id = "任务TaskCondition结点";
 
         /// <summary>
         /// 内部ID
@@ -26,7 +20,7 @@ namespace Plugins.NodeEditor.Editor.NPBehaveNodes
         public override string GetID => Id;
 
         public NP_TaskConditionNodeData NP_BlackboardConditionNodeData =
-                new NP_TaskConditionNodeData { NodeType = NodeType.Decorator, NodeDes = "任务条件结点" };
+                new NP_TaskConditionNodeData { NodeType = NodeType.Decorator, NodeDes = "任务TaskCondition结点" };
 
         public override NP_NodeDataBase NP_GetNodeData()
         {

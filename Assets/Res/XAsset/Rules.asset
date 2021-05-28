@@ -20,7 +20,7 @@ MonoBehaviour:
   searchPatternPrefab: '*.prefab'
   searchPatternScene: '*.unity'
   searchPatternText: '*.txt,*.bytes,*.json,*.csv,*.xml,*htm,*.html,*.yaml,*.fnt'
-  version: 3
+  version: 11
   scenesInBuild:
   - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
   rules:
@@ -40,10 +40,31 @@ MonoBehaviour:
     searchPattern: '*.txt,*.bytes,*.json,*.csv,*.xml,*htm,*.html,*.yaml,*.fnt'
     nameBy: 1
     assetBundleName: 
+  - searchPath: Assets/Bundles/CanvasTask
+    searchPattern: '*'
+    nameBy: 2
+    assetBundleName: 
+  - searchPath: Assets/Bundles/Independent
+    searchPattern: '*'
+    nameBy: 2
+    assetBundleName: 
   ruleAssets:
-  - bundle: 55ef7382f5a509040b488a114573722e.unity3d
+  - bundle: dd41a772bbbf3e0df60e7f07067ba0e5.unity3d
+    path: Assets/Bundles/CanvasTask/TaskCanvas.prefab
+  - bundle: 2c8a30a75fbd4df099c0f8c83a87fd61.unity3d
     path: Assets/Bundles/Independent/Code.prefab
+  - bundle: 2c8a30a75fbd4df099c0f8c83a87fd61.unity3d
+    path: Assets/Bundles/Independent/Config.prefab
+  - bundle: dca392625388ba4f10e9a74e164946ef.unity3d
+    path: Assets/Scenes/SampleScene.unity
   ruleBundles:
-  - name: 55ef7382f5a509040b488a114573722e.unity3d
+  - name: 2c8a30a75fbd4df099c0f8c83a87fd61.unity3d
     assets:
     - Assets/Bundles/Independent/Code.prefab
+    - Assets/Bundles/Independent/Config.prefab
+  - name: dca392625388ba4f10e9a74e164946ef.unity3d
+    assets:
+    - Assets/Scenes/SampleScene.unity
+  - name: dd41a772bbbf3e0df60e7f07067ba0e5.unity3d
+    assets:
+    - Assets/Bundles/CanvasTask/TaskCanvas.prefab

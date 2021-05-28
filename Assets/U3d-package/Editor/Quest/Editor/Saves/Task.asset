@@ -1,0 +1,810 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8948770506750821746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -2887214519766551413}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 5855026370750636623}
+  - {fileID: 139828754837934449}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-8847637986236950816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 4842836581305854744}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: 2151076394497122912}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-7930382443838858246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58624a171e0bb7c47b81b41b02bda08e, type: 3}
+  m_Name: "\u884C\u4E3A\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQERAAAATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhAC8AAAAAASYAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAABAIGtsGAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQACAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUnAQcAAABOAG8AZABlAEQAZQBzAAEGAAAA7nYHaL6PEGIuAC4AAQEVAAAATgBwAEMAbABhAHMAcwBGAG8AcgBTAHQAbwByAGUAQQBjAHQAaQBvAG4ALwIAAAABIQAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBMAG8AZwBBAGMAdABpAG8AbgAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAIAAAAbAQYAAABVAG4AaQB0AGkAZAAAAAAAAAAAAC0BEwAAAEIAZQBsAG8AbgBnAHQAbwBSAHUAbgB0AGkAbQBlAFQAcgBlAGUALQEGAAAAQQBjAHQAaQBvAG4ALQEFAAAARgB1AG4AYwAxAC0BBQAAAEYAdQBuAGMAMgAnAQcAAABMAG8AZwBJAG4AZgBvAAEGAAAA7nYHaL6PEGIuAC4ABQU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -561.0666, y: 250.40001}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 8150108577916507691}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 8150108577916507691}
+--- !u!114 &-7680509214661881684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 334061778283482749}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: 1932132086071371304}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-7158606158777968006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 2746242684875515779}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 8804856513907639962}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-5114154525480441868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545a619140a083f449549eb92b431ef8, type: 3}
+  m_Name: "Task\u884C\u4E3A\u6811\u6839\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQENAAAATQBSAG8AbwB0AE4AbwBkAGUARABhAHQAYQAvAAAAAAEkAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFIAbwBvAHQATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAAVAMBId18AAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQABAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAHAgAga2wYAAABwUtAQcAAABOAG8AZABlAEQAZQBzAC0BBgAAAG0AXwBSAG8AbwB0AAU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -90.13335, y: -481.33344}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 1932132086071371304}
+  backgroundColor: {r: 0, g: 0.7490196, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  NextNode: {fileID: 1932132086071371304}
+--- !u!114 &-4846724016044555778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 1855602205663205548}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 8150108577916507691}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &-3303996583996328134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cd5d12e7ee4f008af867f79f76d888, type: 3}
+  m_Name: "\u5F53\u524DCanvas\u6570\u636E\u5E93"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEIAAAAQgBCAFYAYQBsAHUAZQBzAC8AAAAAAXgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBEAGkAYwB0AGkAbwBuAGEAcgB5AGAAMgBbAFsAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAEUAVABNAG8AZABlAGwALgBCAEIAVgBhAGwAdQBlAHMALgBBAE4AUABfAEIAQgBWAGEAbAB1AGUALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbABdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAAAQEIAAAAYwBvAG0AcABhAHIAZQByAC8BAAAAAVkAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBHAGUAbgBlAHIAaQBjAEUAcQB1AGEAbABpAHQAeQBDAG8AbQBwAGEAcgBlAHIAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAUGAAAAAAAAAAAHBQEBAwAAAEkAZABzAC8CAAAAAWUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBEAGkAYwB0AGkAbwBuAGEAcgB5AGAAMgBbAFsAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAFMAeQBzAHQAZQBtAC4ASQBuAHQANgA0ACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAkBCAAAAGMAbwBtAHAAYQByAGUAcgABAAAABgAAAAAAAAAABwU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  EventValues: []
+--- !u!114 &-2887214519766551413
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a76df7ad194f4fb27c7cf808370fd4, type: 3}
+  m_Name: "\u9009\u62E9\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQETAAAATgBQAF8AUwBlAGwAZQBjAHQAbwByAE4AbwBkAGUARABhAHQAYQAvAAAAAAEoAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFMAZQBsAGUAYwB0AG8AcgBOAG8AZABlAEQAYQB0AGEALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAGwECAAAAaQBkAAYAga2wYAAAHQEIAAAATgBvAGQAZQBUAHkAcABlAAAAAAAAAAAAAQEJAAAATABpAG4AawBlAGQASQBkAHMALwEAAAABRQAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAgAAAAAAAAAcBACBrbBgAAAcAwCBrbBgAAAHBScBBwAAAE4AbwBkAGUARABlAHMAAQUAAAAJkOlixH4IVGhWBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -409.06665, y: 4.000023}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 8804856513907639962}
+  - {fileID: -8948770506750821746}
+  backgroundColor: {r: 0.49803922, g: 1, b: 0, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 8804856513907639962}
+  NextNode: {fileID: -8948770506750821746}
+--- !u!114 &-1870073535292288262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58624a171e0bb7c47b81b41b02bda08e, type: 3}
+  m_Name: "\u884C\u4E3A\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQERAAAATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhAC8AAAAAASYAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAADAIGtsGAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQACAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUnAQcAAABOAG8AZABlAEQAZQBzAAEHAAAA7nYHaCpnvo8QYi4ALgABARUAAABOAHAAQwBsAGEAcwBzAEYAbwByAFMAdABvAHIAZQBBAGMAdABpAG8AbgAvAgAAAAEhAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAEwAbwBnAEEAYwB0AGkAbwBuACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAgAAABsBBgAAAFUAbgBpAHQAaQBkAAAAAAAAAAAALQETAAAAQgBlAGwAbwBuAGcAdABvAFIAdQBuAHQAaQBtAGUAVAByAGUAZQAtAQYAAABBAGMAdABpAG8AbgAtAQUAAABGAHUAbgBjADEALQEFAAAARgB1AG4AYwAyACcBBwAAAEwAbwBnAEkAbgBmAG8AAQcAAADudgdoKme+jxBiLgAuAAUF
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -314.66672, y: 114.399994}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 139828754837934449}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 139828754837934449}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bb11d85bbf4e7b99274f475a2d902b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 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
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  editorStates:
+  - {fileID: 813355115130850392}
+  saveName: Assets\U3d-package\Editor\Quest\Editor\Saves\Task
+  savePath: Assets\U3d-package\Editor\Quest\Editor\Saves\Task.asset
+  nodes:
+  - {fileID: -5114154525480441868}
+  - {fileID: 334061778283482749}
+  - {fileID: 1855602205663205548}
+  - {fileID: -2887214519766551413}
+  - {fileID: 5974811267204929413}
+  - {fileID: 2746242684875515779}
+  - {fileID: -1870073535292288262}
+  - {fileID: 4842836581305854744}
+  - {fileID: -7930382443838858246}
+  nodesForDelete: []
+  groups:
+  - rect:
+      serializedVersion: 2
+      x: 66.7337
+      y: -40.166702
+      width: 523.2
+      height: 568
+    title: "\u4EFB\u52A1\u6761\u4EF6"
+    _color: {r: 0.7762974, g: 0.90083873, b: 0.2756325, a: 1}
+    TextSize: 25
+  - rect:
+      serializedVersion: 2
+      x: -638.8667
+      y: -52.766685
+      width: 526.4
+      height: 550.4
+    title: Update
+    _color: {r: 0.44308746, g: 0.9834555, b: 0.5528901, a: 1}
+    TextSize: 25
+  Name: Task
+  Config: {fileID: 4900000, guid: 42f607c383d7ac44da00bac1b12c1501, type: 3}
+  IdInConfig: 1
+  SavePath: Assets/Res/Config
+  npBehaveCanvasDataManager: {fileID: -3303996583996328134}
+--- !u!114 &139828754837934449
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -1870073535292288262}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -8948770506750821746}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &199649417508077808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 5974811267204929413}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: 684654223752025699}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &334061778283482749
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a76df7ad194f4fb27c7cf808370fd4, type: 3}
+  m_Name: "\u9009\u62E9\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQETAAAATgBQAF8AUwBlAGwAZQBjAHQAbwByAE4AbwBkAGUARABhAHQAYQAvAAAAAAEoAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFMAZQBsAGUAYwB0AG8AcgBOAG8AZABlAEQAYQB0AGEALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAGwECAAAAaQBkAAgAga2wYAAAHQEIAAAATgBvAGQAZQBUAHkAcABlAAAAAAAAAAAAAQEJAAAATABpAG4AawBlAGQASQBkAHMALwEAAAABRQAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAgAAAAAAAAAcBwCBrbBgAAAcBQCBrbBgAAAHBScBBwAAAE4AbwBkAGUARABlAHMAAQUAAAAJkOlixH4IVGhWBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -90.13334, y: -356.53345}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -7680509214661881684}
+  - {fileID: 684654223752025699}
+  backgroundColor: {r: 0.49803922, g: 1, b: 0, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: -7680509214661881684}
+  NextNode: {fileID: 684654223752025699}
+--- !u!114 &684654223752025699
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 334061778283482749}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: 199649417508077808}
+  - {fileID: 6354227258363082814}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &813355115130850392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  selectedNodes:
+  - {fileID: -1870073535292288262}
+  panOffset: {x: 0, y: 0}
+  zoom: 1.6
+  boxSelecting: 0
+--- !u!114 &1855602205663205548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc774b8b86bed5469c75265ae79d886, type: 3}
+  m_Name: "\u5171\u4EAB\u9ED1\u677F\u6761\u4EF6\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEeAAAATgBQAF8AQgBsAGEAYwBrAGIAbwBhAHIAZABDAG8AbgBkAGkAdABpAG8AbgBOAG8AZABlAEQAYQB0AGEALwAAAAABOQAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBHAGwAbwBiAGEAbABCAGwAYQBjAGsAYgBvAGEAcgBkAEMAbwBuAGQAaQB0AGkAbwBuAE4AbwBkAGUARABhAHQAYQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAAAAAAbAQIAAABpAGQABACBrbBgAAAdAQgAAABOAG8AZABlAFQAeQBwAGUAAQAAAAAAAAABAQkAAABMAGkAbgBrAGUAZABJAGQAcwAvAQAAAAFFAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ATABpAHMAdABgADEAWwBbAFMAeQBzAHQAZQBtAC4ASQBuAHQANgA0ACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYBAAAAAAAAABwBAIGtsGAAAAcFJwEHAAAATgBvAGQAZQBEAGUAcwABBgAAAPtOoVIvZiZUvo8QYh0BAwAAAE8AcABlAAIAAAAAAAAAHQEEAAAAUwB0AG8AcAAEAAAAAAAAAAEBGAAAAE4AUABCAGEAbABjAGsAQgBvAGEAcgBkAFIAZQBsAGEAdABpAG8AbgBEAGEAdABhAC8CAAAAAS4AAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQgBsAGEAYwBrAEIAbwBhAHIAZABSAGUAbABhAHQAaQBvAG4ARABhAHQAYQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAIAAAAtAQUAAABCAEIASwBlAHkALQEOAAAATgBQAF8AQgBCAFYAYQBsAHUAZQBUAHkAcABlACsBEgAAAFcAcgBpAHQAZQBPAHIAQwBvAG0AcABhAHIAZQBUAG8AQgBCAAEtAQoAAABOAFAAXwBCAEIAVgBhAGwAdQBlAAUF
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -556.26697, y: 107.99993}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 5855026370750636623}
+  - {fileID: -4846724016044555778}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 5855026370750636623}
+  NextNode: {fileID: -4846724016044555778}
+--- !u!114 &1932132086071371304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -5114154525480441868}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: -7680509214661881684}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &2151076394497122912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_NextNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 5974811267204929413}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NPBehave_NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections:
+  - {fileID: -8847637986236950816}
+  side: 1
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &2746242684875515779
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2476e0e3188ca124f906ca43e48f7a89, type: 3}
+  m_Name: "\u4EFB\u52A1\u6761\u4EF6\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEeAAAATgBQAF8AQgBsAGEAYwBrAGIAbwBhAHIAZABDAG8AbgBkAGkAdABpAG8AbgBOAG8AZABlAEQAYQB0AGEALwAAAAABKQAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBUAGEAcwBrAEUAeABpAHMAdABOAG8AZABlAEQAYQB0AGEALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAGwECAAAAaQBkAAcAga2wYAAAHQEIAAAATgBvAGQAZQBUAHkAcABlAAEAAAAAAAAAAQEJAAAATABpAG4AawBlAGQASQBkAHMALwEAAAABRQAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAQAAAAAAAAAcBgCBrbBgAAAHBScBBwAAAE4AbwBkAGUARABlAHMAAQcAAAAvZiZUpWPXU4ZO+06hUh0BBAAAAFMAdABvAHAABAAAAAAAAAAF
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -261.8667, y: -215.20001}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 6354227258363082814}
+  - {fileID: -7158606158777968006}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 6354227258363082814}
+  NextNode: {fileID: -7158606158777968006}
+--- !u!114 &4842836581305854744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58624a171e0bb7c47b81b41b02bda08e, type: 3}
+  m_Name: "\u884C\u4E3A\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQERAAAATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhAC8AAAAAASYAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8AQQBjAHQAaQBvAG4ATgBvAGQAZQBEAGEAdABhACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAAAAAABsBAgAAAGkAZAACAIGtsGAAAB0BCAAAAE4AbwBkAGUAVAB5AHAAZQACAAAAAAAAAAEBCQAAAEwAaQBuAGsAZQBkAEkAZABzAC8BAAAAAUUAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAA2ADQALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUnAQcAAABOAG8AZABlAEQAZQBzAAEGAAAA+06hUmFn9k4uAC4AAQEVAAAATgBwAEMAbABhAHMAcwBGAG8AcgBTAHQAbwByAGUAQQBjAHQAaQBvAG4ALwIAAAABIQAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBMAG8AZwBBAGMAdABpAG8AbgAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAIAAAAbAQYAAABVAG4AaQB0AGkAZAAAAAAAAAAAAC0BEwAAAEIAZQBsAG8AbgBnAHQAbwBSAHUAbgB0AGkAbQBlAFQAcgBlAGUALQEGAAAAQQBjAHQAaQBvAG4ALQEFAAAARgB1AG4AYwAxAC0BBQAAAEYAdQBuAGMAMgAnAQcAAABMAG8AZwBJAG4AZgBvAAEGAAAA+06hUmFn9k4uAC4ABQU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 270.93323, y: 144.80002}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -8847637986236950816}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: -8847637986236950816}
+--- !u!114 &5855026370750636623
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 1855602205663205548}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -8948770506750821746}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &5974811267204929413
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a76df7ad194f4fb27c7cf808370fd4, type: 3}
+  m_Name: "\u9009\u62E9\u7ED3\u70B9"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQETAAAATgBQAF8AUwBlAGwAZQBjAHQAbwByAE4AbwBkAGUARABhAHQAYQAvAAAAAAEoAAAARQBUAE0AbwBkAGUAbAAuAE4AUABfAFMAZQBsAGUAYwB0AG8AcgBOAG8AZABlAEQAYQB0AGEALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAAAAAAAGwECAAAAaQBkAAUAga2wYAAAHQEIAAAATgBvAGQAZQBUAHkAcABlAAAAAAAAAAAAAQEJAAAATABpAG4AawBlAGQASQBkAHMALwEAAAABRQAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAQAAAAAAAAAcAgCBrbBgAAAHBScBBwAAAE4AbwBkAGUARABlAHMAAQUAAAAJkOlixH4IVGhWBQ==
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: 254.9333, y: 23.199999}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: 199649417508077808}
+  - {fileID: 2151076394497122912}
+  backgroundColor: {r: 0.49803922, g: 1, b: 0, a: 1}
+  NodeSize: {x: 150, y: 60}
+  PrevNode: {fileID: 199649417508077808}
+  NextNode: {fileID: 2151076394497122912}
+--- !u!114 &6354227258363082814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 2746242684875515779}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: 684654223752025699}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &8150108577916507691
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -7930382443838858246}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -4846724016044555778}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0
+--- !u!114 &8804856513907639962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NPBehave_PreNode
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: -2887214519766551413}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: NPBehave_PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections:
+  - {fileID: -7158606158777968006}
+  side: 3
+  sidePosition: 75
+  sideOffset: 0

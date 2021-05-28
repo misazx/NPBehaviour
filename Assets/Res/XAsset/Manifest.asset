@@ -14,14 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeVariants: []
   dirs:
+  - Assets/Bundles/CanvasTask
   - Assets/Bundles/Independent
+  - Assets/Scenes
   assets:
+  - name: TaskCanvas.prefab
+    bundle: 2
+    dir: 0
   - name: Code.prefab
     bundle: 0
-    dir: 0
+    dir: 1
+  - name: Config.prefab
+    bundle: 0
+    dir: 1
+  - name: SampleScene.unity
+    bundle: 1
+    dir: 2
   bundles:
-  - name: 55ef7382f5a509040b488a114573722e.unity3d
+  - name: 2c8a30a75fbd4df099c0f8c83a87fd61.unity3d
     id: 0
     deps: 
-    len: 40652
-    hash: c0aeb814994a71c1395dcba8b34c7c5c
+    len: 45671
+    hash: d4903632ad42da476ba8e6387f0577af
+  - name: dca392625388ba4f10e9a74e164946ef.unity3d
+    id: 1
+    deps: 
+    len: 37833
+    hash: 248d77d1ed4a2ed53f6af380ac42d574
+  - name: dd41a772bbbf3e0df60e7f07067ba0e5.unity3d
+    id: 2
+    deps: 
+    len: 3205
+    hash: 40749fc2dd2eab367f0ef636c0190beb

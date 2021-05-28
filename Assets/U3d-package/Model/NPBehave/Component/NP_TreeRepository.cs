@@ -84,7 +84,7 @@ namespace ETModel
 #else
 
             ResourcesComponent resourcesComponent = Game.Scene.GetComponent<ResourcesComponent>();
-            GameObject skillConfigs = resourcesComponent.LoadAsset<GameObject>(ABPathUtilities.GetSkillConfigPath("SkillConfigs"));
+            GameObject skillConfigs = resourcesComponent.LoadAsset<GameObject>(ABPathUtilities.GetTaskConfigPath("TaskCanvas"));
             foreach (var referenceCollectorData in skillConfigs.GetComponent<ReferenceCollector>().data)
             {
                 TextAsset textAsset = skillConfigs.GetTargetObjectFromRC<TextAsset>(referenceCollectorData.key);

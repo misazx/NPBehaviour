@@ -61,7 +61,7 @@ namespace ETModel
                 Game.Hotfix.LoadHotfixAssembly();
 
                 //// 加载配置
-                //Game.Scene.AddComponent<ConfigComponent>();
+                Game.Scene.AddComponent<ConfigComponent>();
 
                 //Game.Scene.AddComponent<OpcodeTypeComponent>();
                 //Game.Scene.AddComponent<MessageDispatcherComponent>();
@@ -69,15 +69,14 @@ namespace ETModel
                 //Game.Scene.AddComponent<HeroBaseDataRepositoryComponent>();
 
                 //Game.Scene.AddComponent<B2S_DebuggerComponent>();
-
-                Game.Hotfix.GotoHotfix();
-
-                //Game.Scene.AddComponent<NP_SyncComponent>();
-                //Game.Scene.AddComponent<NP_TreeDataRepository>();
+                Game.Scene.AddComponent<NP_SyncComponent>();
+                Game.Scene.AddComponent<NP_TreeDataRepository>();
 
                 //战斗系统的事件系统组件
                 //Game.Scene.AddComponent<BattleEventSystem>();
                 //UnitFactory.NPBehaveTestCreate();
+
+                Game.Hotfix.GotoHotfix();
             }
             catch (Exception e)
             {

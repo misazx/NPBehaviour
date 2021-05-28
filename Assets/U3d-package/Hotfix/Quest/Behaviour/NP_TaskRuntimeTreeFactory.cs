@@ -25,8 +25,10 @@ namespace ETModel
             unit.AddComponent<MoveComponent>();
 
             UnitComponent.Instance.Add(unit);
-            Log.Debug("-------------------.");
-            //NP_TaskRuntimeTreeFactory.CreateTaskNpRuntimeTree(unit, 1, 1).Start();
+            Log.Debug("------------------->>>>.");
+            ConfigComponent configComponent = Game.Scene.GetComponent<ConfigComponent>();
+            int taskId = 1;
+            NP_TaskRuntimeTreeFactory.CreateTaskNpRuntimeTree(unit, configComponent.Get<Client_TaskCanvasConfig>(taskId).NPBehaveId, taskId).Start();
         }
     }
 

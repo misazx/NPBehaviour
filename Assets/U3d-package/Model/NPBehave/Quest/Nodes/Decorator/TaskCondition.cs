@@ -6,62 +6,22 @@ using Log = NPBehave_Core.Log;
 namespace NPBehave
 {
     /// <summary>
-    /// 任务是否接受
+    /// 任务目标是否达成
     /// </summary>
-    public class TaskCondition : ObservingDecorator
+    public class TaskCondition : TaskDecorator
     {
-        private const string _key = "List";
-
-        private long taskId;
-
-        private string key { get
-            {
-                return _key + taskId;
-            }
-        }
-
-        private Blackboard globalBlackboard
+        public override string _key
         {
             get
             {
-                return SyncContext.GetSharedBlackboard("Task");
+                return "List";
             }
         }
 
-
-        public TaskCondition(long taskId, Stops stopsOnChange, Node decoratee) : base("TaskCondition", stopsOnChange,
-            decoratee)
+        public TaskCondition(int taskId, Stops stopsOnChange, Node decoratee) : base( taskId, stopsOnChange,
+            decoratee, "TaskCondition")
         {
-            this.taskId = taskId;
-            this.stopsOnChange = stopsOnChange;
         }
-
-        override protected void StartObserving()
-        {
-            this.globalBlackboard.AddObserver(key, onValueChanged);
-        }
-
-        override protected void StopObserving()
-        {
-            this.globalBlackboard.RemoveObserver(key, onValueChanged);
-        }
-
-        private void onValueChanged(Blackboard.Type type, ANP_BBValue newValue)
-        {
-            Evaluate();
-        }
-
-        override protected bool IsConditionMet()
-        {
-            ANP_BBValue bbValue = this.globalBlackboard.Get(key);
-
-            return (bbValue as NP_BBValue_Bool).Value;
-
-        }
-
-        override public string ToString()
-        {
-            return this.key;
-        }
+       
     }
 }

@@ -40,7 +40,12 @@ namespace ETModel
         {
             return $"Assets/Bundles/SkillConfigs/{fileName}.prefab";
         }
-        
+
+        public static string GetTaskConfigPath(string fileName)
+        {
+            return $"Assets/Bundles/CanvasTask/{fileName}.prefab";
+        }
+
         public static string GetUnitPath(string fileName)
         {
             return $"Assets/Bundles/Unit/{fileName}.prefab";

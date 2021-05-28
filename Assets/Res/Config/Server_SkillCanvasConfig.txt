@@ -1,0 +1,7 @@
+{"Id":10001,"NPBehaveId":105378707013701,"BelongToSkillId":10001}
+{"Id":10002,"NPBehaveId":106186105749579,"BelongToSkillId":10002}
+{"Id":10003,"NPBehaveId":106153860792403,"BelongToSkillId":10002}
+{"Id":10004,"NPBehaveId":106137239421084,"BelongToSkillId":10003}
+{"Id":10005,"NPBehaveId":106137240142007,"BelongToSkillId":10004}
+{"Id":10006,"NPBehaveId":105995111759937,"BelongToSkillId":10004}
+{"Id":10007,"NPBehaveId":106153703964760,"BelongToSkillId":10005}

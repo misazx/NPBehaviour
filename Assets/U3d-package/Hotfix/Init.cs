@@ -33,8 +33,8 @@ namespace ETHotfix
                 ETModel.Game.Hotfix.OnApplicationQuit = () => { OnApplicationQuit(); };
 
                 Game.Scene.AddComponent<NumericWatcherComponent>();
-                
-                //Game.Scene.AddComponent<ConfigComponent>();
+
+                Game.Scene.AddComponent<ConfigComponent>();
 
                 //显示登录UI
                 Game.EventSystem.Run(EventIdType.ShowLoginUI);

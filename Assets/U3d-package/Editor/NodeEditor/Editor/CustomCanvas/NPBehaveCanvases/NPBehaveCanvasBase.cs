@@ -107,6 +107,7 @@ namespace Plugins.NodeEditor.Editor.Canvas
         private void AutoSetNP_NodeData(NP_DataSupportorBase npDataSupportorBase)
         {
             npDataSupportorBase.NPBehaveTreeDataId = 0;
+            npDataSupportorBase.NPBehaveTreeConfigId = this.IdInConfig;
             npDataSupportorBase.NP_DataSupportorDic.Clear();
 
             //当前Canvas所有NP_Node
@@ -145,27 +146,34 @@ namespace Plugins.NodeEditor.Editor.Canvas
                     //目前行为树只有三种类型，直接在这里写出
                     switch (config)
                     {
-                        //case Server_AICanvasConfig serverAICanvasConfig:
-                        //    if (serverAICanvasConfig.Id == this.IdInConfig)
-                        //    {
-                        //        npDataSupportorBase.NPBehaveTreeDataId = serverAICanvasConfig.NPBehaveId;
-                        //    }
+                        case Server_AICanvasConfig serverAICanvasConfig:
+                            if (serverAICanvasConfig.Id == this.IdInConfig)
+                            {
+                                npDataSupportorBase.NPBehaveTreeDataId = serverAICanvasConfig.NPBehaveId;
+                            }
 
-                        //    break;
-                        //case Client_SkillCanvasConfig clientSkillCanvasConfig:
-                        //    if (clientSkillCanvasConfig.Id == this.IdInConfig)
-                        //    {
-                        //        npDataSupportorBase.NPBehaveTreeDataId = clientSkillCanvasConfig.NPBehaveId;
-                        //    }
+                            break;
+                        case Client_SkillCanvasConfig clientSkillCanvasConfig:
+                            if (clientSkillCanvasConfig.Id == this.IdInConfig)
+                            {
+                                npDataSupportorBase.NPBehaveTreeDataId = clientSkillCanvasConfig.NPBehaveId;
+                            }
 
-                        //    break;
-                        //case Server_SkillCanvasConfig serverSkillCanvasConfig:
-                        //    if (serverSkillCanvasConfig.Id == this.IdInConfig)
-                        //    {
-                        //        npDataSupportorBase.NPBehaveTreeDataId = serverSkillCanvasConfig.NPBehaveId;
-                        //    }
+                            break;
+                        case Server_SkillCanvasConfig serverSkillCanvasConfig:
+                            if (serverSkillCanvasConfig.Id == this.IdInConfig)
+                            {
+                                npDataSupportorBase.NPBehaveTreeDataId = serverSkillCanvasConfig.NPBehaveId;
+                            }
 
-                        //    break;
+                            break;
+                        case Client_TaskCanvasConfig cleintTaskCanvasConfig:
+                            if (cleintTaskCanvasConfig.Id == this.IdInConfig)
+                            {
+                                npDataSupportorBase.NPBehaveTreeDataId = cleintTaskCanvasConfig.NPBehaveId;
+                            }
+
+                            break;
                     }
 
                     if (npDataSupportorBase.NPBehaveTreeDataId != 0)
@@ -255,14 +263,14 @@ namespace Plugins.NodeEditor.Editor.Canvas
             GUI.backgroundColor = Color.white;
         }
 
-        //public IEnumerable<Type> GetConfigTypes()
-        //{
-        //    var q = typeof(Init).Assembly.GetTypes()
-        //            .Where(x => !x.IsAbstract)
-        //            .Where(x => !x.IsGenericTypeDefinition)
-        //            .Where(x => typeof(IConfig).IsAssignableFrom(x));
+        public IEnumerable<Type> GetConfigTypes()
+        {
+            var q = typeof(Init).Assembly.GetTypes()
+                    .Where(x => !x.IsAbstract)
+                    .Where(x => !x.IsGenericTypeDefinition)
+                    .Where(x => typeof(IConfig).IsAssignableFrom(x));
 
-        //    return q;
-        //}
+            return q;
+        }
     }
 }
