@@ -82,5 +82,8 @@
 
         public const string GameInitFinished = "GameInitFinished";
 
+
+        public const string KillMonster = "KillMonster";
+
     }
 }

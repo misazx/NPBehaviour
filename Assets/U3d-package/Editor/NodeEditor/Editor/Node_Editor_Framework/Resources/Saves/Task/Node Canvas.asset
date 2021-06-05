@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3984919132614847174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: NextType
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 8648500451082377060}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: NextNodeDatas
+  color: {r: 0, g: 1, b: 1, a: 1}
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &-3141460619569315762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: PrevType
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  body: {fileID: 8648500451082377060}
+  direction: 1
+  maxConnectionCount: 1
+  styleID: PrevNodeDatas
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _connections: []
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26d25ccf02e3848a6b50f62c7e8ec2, type: 3}
+  m_Name: Node Canvas
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: LQEKAAAAQwBvAG4AZgBpAGcAVAB5AHAAZQABARAAAABNAE4AcABEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAC8AAAAAASUAAABFAFQATQBvAGQAZQBsAC4ATgBQAF8ARABhAHQAYQBTAHUAcABwAG8AcgB0AG8AcgAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAAAAAAtAQcAAABEAGEAdABhAEQAaQBjAAEBEwAAAE4AcABEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAEIAYQBzAGUALwEAAAABKQAAAEUAVABNAG8AZABlAGwALgBOAFAAXwBEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAEIAYQBzAGUALAAgAFUAbgBpAHQAeQAuAE0AbwBkAGUAbAABAAAAGwESAAAATgBQAEIAZQBoAGEAdgBlAFQAcgBlAGUARABhAHQAYQBJAGQAAAAAAAAAAAAXARQAAABOAFAAQgBlAGgAYQB2AGUAVAByAGUAZQBDAG8AbgBmAGkAZwBJAGQAAAAAAAEBEwAAAE4AUABfAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIARABpAGMALwIAAAABcgAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEQAaQBjAHQAaQBvAG4AYQByAHkAYAAyAFsAWwBTAHkAcwB0AGUAbQAuAEkAbgB0ADYANAAsACAAbQBzAGMAbwByAGwAaQBiAF0ALABbAEUAVABNAG8AZABlAGwALgBOAFAAXwBOAG8AZABlAEQAYQB0AGEAQgBhAHMAZQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAABAQgAAABjAG8AbQBwAGEAcgBlAHIALwMAAAABWAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEcAZQBuAGUAcgBpAGMARQBxAHUAYQBsAGkAdAB5AEMAbwBtAHAAYQByAGUAcgBgADEAWwBbAFMAeQBzAHQAZQBtAC4ASQBuAHQANgA0ACwAIABtAHMAYwBvAHIAbABpAGIAXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAUGAAAAAAAAAAAHBQEBEQAAAE4AUABfAEIAQgBWAGEAbAB1AGUATQBhAG4AYQBnAGUAcgAvBAAAAAF4AAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ARABpAGMAdABpAG8AbgBhAHIAeQBgADIAWwBbAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcALAAgAG0AcwBjAG8AcgBsAGkAYgBdACwAWwBFAFQATQBvAGQAZQBsAC4AQgBCAFYAYQBsAHUAZQBzAC4AQQBOAFAAXwBCAEIAVgBhAGwAdQBlACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwAXQBdACwAIABtAHMAYwBvAHIAbABpAGIABAAAAAEBCAAAAGMAbwBtAHAAYQByAGUAcgAvBQAAAAFZAAAAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBHAGUAbgBlAHIAaQBjAC4ARwBlAG4AZQByAGkAYwBFAHEAdQBhAGwAaQB0AHkAQwBvAG0AcABhAHIAZQByAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAbQBzAGMAbwByAGwAaQBiAAUAAAAFBgAAAAAAAAAABwUFBQEBEQAAAE0ATgBwAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIAMQAwAAAAAAYAAAAtAQcAAABEAGEAdABhAEQAaQBjAAEBEwAAAE4AcABEAGEAdABhAFMAdQBwAHAAbwByAHQAbwByAEIAYQBzAGUAMAEAAAAHAAAAGwESAAAATgBQAEIAZQBoAGEAdgBlAFQAcgBlAGUARABhAHQAYQBJAGQAAAAAAAAAAAAXARQAAABOAFAAQgBlAGgAYQB2AGUAVAByAGUAZQBDAG8AbgBmAGkAZwBJAGQAAAAAAAEBEwAAAE4AUABfAEQAYQB0AGEAUwB1AHAAcABvAHIAdABvAHIARABpAGMAMAIAAAAIAAAACQEIAAAAYwBvAG0AcABhAHIAZQByAAMAAAAGAAAAAAAAAAAHBQEBEQAAAE4AUABfAEIAQgBWAGEAbAB1AGUATQBhAG4AYQBnAGUAcgAwBAAAAAkAAAAJAQgAAABjAG8AbQBwAGEAcgBlAHIABQAAAAYAAAAAAAAAAAcFBQU=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  editorStates:
+  - {fileID: 7252567821691021884}
+  saveName: Assets\U3d-package\Editor\NodeEditor\Editor\Node_Editor_Framework\Resources\Saves\Task\Node
+    Canvas
+  savePath: Assets\U3d-package\Editor\NodeEditor\Editor\Node_Editor_Framework\Resources\Saves\Task\Node
+    Canvas.asset
+  nodes:
+  - {fileID: 8648500451082377060}
+  nodesForDelete: []
+  groups: []
+  Name: 
+  Config: {fileID: 0}
+  IdInConfig: 0
+  SavePath: 
+  npBehaveCanvasDataManager: {fileID: 0}
+--- !u!114 &7252567821691021884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  selectedNodes: []
+  panOffset: {x: 0, y: 0}
+  zoom: 1
+  boxSelecting: 0
+--- !u!114 &8648500451082377060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6479bac0d1ef094d964ca734682ff0b, type: 3}
+  m_Name: "T\u6740\u602A"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: AQEEAAAARABhAHQAYQAvAAAAAAEjAAAARQBUAE0AbwBkAGUAbAAuAFQAYQBzAGsAVABhAHIAZwBlAHQARABhAHQAYQAsACAAVQBuAGkAdAB5AC4ATQBvAGQAZQBsAAAAAAADAQYAAABOAG8AZABlAEkAZAAvAQAAAAEbAAAARQBUAE0AbwBkAGUAbAAuAFYAVABEAF8ASQBkACwAIABVAG4AaQB0AHkALgBNAG8AZABlAGwALQEFAAAASQBkAEsAZQB5ABsBBQAAAFYAYQBsAHUAZQAAAAAAAAAAAAUnAQMAAABEAGUAcwABAwAAAHQAQGcqYC0BCAAAAEIAYQBzAGUARABhAHQAYQAF
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  canvas: {fileID: 11400000}
+  position: {x: -279.6667, y: -219.5}
+  dynamicConnectionPorts: []
+  connectionPorts:
+  - {fileID: -3141460619569315762}
+  - {fileID: -3984919132614847174}
+  backgroundColor: {r: 0.7007832, g: 0.8773585, b: 0.824092, a: 1}
+  PrevNode: {fileID: -3141460619569315762}
+  NextNode: {fileID: -3984919132614847174}

@@ -6,21 +6,21 @@ using UnityEditor;
 
 namespace Plugins.NodeEditor.Editor.NPBehaveNodes
 {
-    [Node(false, "Task行为树/Task Decorator/TaskCondition", typeof(NPBehaveCanvas))]
-    public class NP_TaskConditionNode : NP_DecoratorNodeBase
+    [Node(false, "Task行为树/Task Decorator/TaskTargetProgress", typeof(NPBehaveCanvas))]
+    public class NP_TaskTargetProgressNode : NP_DecoratorNodeBase
     {
         /// <summary>
         /// 内部ID
         /// </summary>
-        private const string Id = "任务TaskCondition结点";
+        private const string Id = "TaskTargetProgress";
 
         /// <summary>
         /// 内部ID
         /// </summary>
         public override string GetID => Id;
 
-        public NP_TaskConditionNodeData NP_BlackboardConditionNodeData =
-                new NP_TaskConditionNodeData { NodeType = NodeType.Decorator, NodeDes = "任务TaskCondition结点" };
+        public NP_TaskTargetProgressNodeData NP_BlackboardConditionNodeData =
+                new NP_TaskTargetProgressNodeData { NodeType = NodeType.Decorator, NodeDes = "任务TaskTargetProgress结点" };
 
         public override NP_NodeDataBase NP_GetNodeData()
         {

@@ -164,7 +164,7 @@ namespace ETModel
         /// <param name="entity"></param>
         public void Recycle(Unit entity)
         {
-            if (entity == null || entity.IsDisposed) return;
+            if (entity == null || entity.IsDisposed || entity.GameObject == null) return;
             // 根据tag进行分类，将Entity放到不同的Queue当中
             String type = entity.GameObject.GetComponent<MonoBridge>()?.CustomTag;
 

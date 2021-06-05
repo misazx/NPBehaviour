@@ -22,14 +22,14 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   editorStates:
-  - {fileID: 6300399154963563402}
+  - {fileID: 4976203728574786488}
   saveName: "New \u9ED8\u8BA4Canvas"
   savePath: Assets/U3d-package/Editor/NodeEditor/Editor/Node_Editor_Framework/Resources/Saves/DefaultCanvas.asset
   nodes: []
   nodesForDelete: []
   groups: []
   Name: "\u9ED8\u8BA4Canvas"
---- !u!114 &6300399154963563402
+--- !u!114 &4976203728574786488
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

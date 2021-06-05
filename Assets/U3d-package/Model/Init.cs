@@ -41,6 +41,7 @@ namespace ETModel
                 Game.Scene.AddComponent<ResourcesComponent>();
                 //Game.Scene.AddComponent<PlayerComponent>();
                 Game.Scene.AddComponent<UnitComponent>();
+                Game.Scene.AddComponent<GameEventSystem>();
 
                 //Game.Scene.AddComponent<FUIPackageComponent>();
                 //Game.Scene.AddComponent<FUIComponent>();
@@ -54,6 +55,7 @@ namespace ETModel
                 //Game.Scene.AddComponent<OutLineComponent>();
 
                 Game.Scene.AddComponent<GameObjectPool>();
+                Game.Scene.AddComponent<TaskComponent>();
 
                 // 下载ab包 
                 await BundleHelper.DownloadBundle();

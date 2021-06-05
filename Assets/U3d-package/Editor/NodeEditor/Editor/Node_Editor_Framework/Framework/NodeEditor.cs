@@ -14,7 +14,7 @@ namespace NodeEditorFramework
     /// </summary>
     public static partial class NodeEditor
     {
-        public static string editorPath = "Assets/U3d-packag/NodeEditor/Editor/Node_Editor_Framework/";
+        public static string editorPath = "Assets/U3d-package/Editor/NodeEditor/Editor/Node_Editor_Framework/";
 
         // The NodeCanvas which represents the currently drawn Node Canvas; globally accessed
         public static NodeCanvas curNodeCanvas;

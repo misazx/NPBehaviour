@@ -67,6 +67,7 @@
         public const string MoveToRandomPos = "MoveToRandomPos";
 
 
+        public const string TaskAccept = "TaskAccept";
 
     }
 }

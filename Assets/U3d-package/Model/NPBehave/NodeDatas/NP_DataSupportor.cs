@@ -15,9 +15,9 @@ namespace ETModel
     [HideLabel]
     public class NP_DataSupportor
     {
-        //[BoxGroup("技能中的Buff数据结点")]
-        //[BsonDictionaryOptions(DictionaryRepresentation.ArrayOfArrays)]
-        //public Dictionary<long, BuffNodeDataBase> BuffNodeDataDic = new Dictionary<long, BuffNodeDataBase>();
+        [BoxGroup("其他数据结点")]
+        [BsonDictionaryOptions(DictionaryRepresentation.ArrayOfArrays)]
+        public Dictionary<long, NodeDataBase> DataDic = new Dictionary<long, NodeDataBase>();
 
         public NP_DataSupportorBase NpDataSupportorBase = new NP_DataSupportorBase();
     }

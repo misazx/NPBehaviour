@@ -111,10 +111,10 @@ namespace NPBehave
             {
                 if (!this.m_Data.ContainsKey(key))
                 {
-                    // ANP_BBValue newBBValue = AutoCreateNPBBValueFromTValue(value);
-                    // this.m_Data.Add(key, newBBValue);
-                    // this.m_Notifications.Add(new Notification(key, Type.ADD, newBBValue));
-                    // this.m_Clock.AddTimer(0f, 0, NotifiyObserversActionCache);
+                    ANP_BBValue newBBValue = AutoCreateNPBBValueFromTValue(value);
+                    this.m_Data.Add(key, newBBValue);
+                    this.m_Notifications.Add(new Notification(key, Type.ADD, newBBValue));
+                    this.m_Clock.AddTimer(0f, 0, NotifiyObserversActionCache);
                     //Log.Warning($"黑板中未注册key为{key}的键值对，此次赋值无效");
                 }
                 else
@@ -312,27 +312,39 @@ namespace NPBehave
             return observers;
         }
 
-        // /// <summary>
-        // /// 自动从T创建一个NP_BBValue
-        // /// </summary>
-        // private static ANP_BBValue AutoCreateNPBBValueFromTValue<T>(T value)
-        // {
-        //     string valueType = typeof (T).ToString();
-        //     object targetValue = value;
-        //     switch (valueType)
-        //     {
-        //         case "int":
-        //             NP_BBValue_Int npBbValueInt = new NP_BBValue_Int();
-        //             npBbValueInt.SetValue((int) targetValue);
-        //             return npBbValueInt;
-        //         case "Vector3":
-        //             NP_BBValue_Vector3 npBbValueVector3 = new NP_BBValue_Vector3();
-        //             npBbValueVector3.SetValue((Vector3) targetValue);
-        //             return npBbValueVector3;
-        //         default:
-        //             Log.Error($"未找到类型为{valueType}的NP_BBValue类型");
-        //             return null;
-        //     }
-        // }
+        /// <summary>
+        /// 自动从T创建一个NP_BBValue
+        /// </summary>
+        private static ANP_BBValue AutoCreateNPBBValueFromTValue<T>(T value)
+        {
+            string valueType = typeof(T).ToString();
+            object targetValue = value;
+            switch (valueType)
+            {
+                case "System.Int32":
+                    NP_BBValue_Int npBbValueInt = new NP_BBValue_Int();
+                    npBbValueInt.SetValue((int)targetValue);
+                    return npBbValueInt;
+                case "System.Boolean":
+                    NP_BBValue_Bool npBbValueBool = new NP_BBValue_Bool();
+                    npBbValueBool.SetValue((bool)targetValue);
+                    return npBbValueBool;
+                case "System.String":
+                    NP_BBValue_String npBbValueString = new NP_BBValue_String();
+                    npBbValueString.SetValue((string)targetValue);
+                    return npBbValueString;
+                case "System.Int64":
+                    NP_BBValue_Long npBbValueLong = new NP_BBValue_Long();
+                    npBbValueLong.SetValue((long)targetValue);
+                    return npBbValueLong;
+                //case "Vector3":
+                //    NP_BBValue_Vector3 npBbValueVector3 = new NP_BBValue_Vector3();
+                //    npBbValueVector3.SetValue((Vector3)targetValue);
+                //    return npBbValueVector3;
+                default:
+                    Log.Error($"未找到类型为{valueType}的NP_BBValue类型");
+                    return null;
+            }
+        }
     }
 }

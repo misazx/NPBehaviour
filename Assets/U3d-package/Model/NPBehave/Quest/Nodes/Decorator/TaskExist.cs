@@ -14,7 +14,7 @@ namespace NPBehave
         {
             get
             {
-                return "List";
+                return "Exist";
             }
         }
        

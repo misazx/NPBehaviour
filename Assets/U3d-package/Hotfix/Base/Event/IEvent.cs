@@ -1,8 +1,9 @@
 ﻿using System;
 
-namespace ETModel
+namespace ETHotfix
 {
-    public interface IEvent
+#if ILRuntime
+ public interface IEvent
     {
         void Handle();
         void Handle(object a);
@@ -160,4 +161,25 @@ namespace ETModel
 
         public abstract void Run(A a, B b, C c,D d);
     }
+#else
+    public abstract class AEvent : ETModel.AEvent
+    {
+    }
+
+    public abstract class AEvent<A> : ETModel.AEvent<A>
+    {
+    }
+
+    public abstract class AEvent<A, B> : ETModel.AEvent<A, B>
+    {
+    }
+
+    public abstract class AEvent<A, B, C> : ETModel.AEvent<A, B, C>
+    {
+    }
+
+    public abstract class AEvent<A, B, C, D> : ETModel.AEvent<A, B, C, D>
+    {
+    }
+#endif
 }

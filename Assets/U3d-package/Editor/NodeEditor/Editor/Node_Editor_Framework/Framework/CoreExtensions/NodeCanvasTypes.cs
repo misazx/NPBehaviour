@@ -89,7 +89,14 @@ namespace NodeEditorFramework
         public static bool CheckCanvasCompability(string nodeID, Type canvasType)
         {
             NodeTypeData data = NodeTypes.GetNodeData(nodeID);
-            return data.limitToCanvasTypes == null || data.limitToCanvasTypes.Length == 0 || data.limitToCanvasTypes.Contains(canvasType);
+            if (data.limitToCanvasTypes == null || data.limitToCanvasTypes.Length == 0)
+                return true;
+            foreach (var type in data.limitToCanvasTypes)
+            {
+                if (type == canvasType || canvasType.IsSubclassOf(type))
+                    return true;
+            }
+            return false;
         }
 
         #region Canvas Type Menu

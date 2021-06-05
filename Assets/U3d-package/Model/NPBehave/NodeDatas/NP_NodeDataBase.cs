@@ -29,7 +29,7 @@ namespace ETModel
         /// <summary>
         /// 与此结点相连的ID
         /// </summary>
-        //[HideInEditorMode]
+        [HideInEditorMode]
         public List<long> LinkedIds = new List<long>();
 
         [BoxGroup("结点信息描述")]

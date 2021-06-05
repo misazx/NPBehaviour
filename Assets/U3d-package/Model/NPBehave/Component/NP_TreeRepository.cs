@@ -44,7 +44,8 @@ namespace ETModel
             Type[] types = typeof(NodeType).Assembly.GetTypes();
             foreach (Type type in types)
             {
-                if (type.IsSubclassOf(typeof(NP_NodeDataBase)) || type.IsSubclassOf(typeof(NP_ClassForStoreAction)) || type.IsSubclassOf(typeof(NP_DataSupportorBase)))
+                if (type.IsSubclassOf(typeof(NP_NodeDataBase)) || type.IsSubclassOf(typeof(NP_ClassForStoreAction)) || type.IsSubclassOf(typeof(NP_DataSupportorBase))
+                    || type.IsSubclassOf(typeof(NodeDataBase)) || type.IsSubclassOf(typeof(TaskTargetDataBase)))
                 {
                     BsonClassMap.LookupClassMap(type);
                 }
@@ -126,7 +127,7 @@ namespace ETModel
         }
 
         /// <summary>
-        /// 获取一棵树的所有数据（仅深拷贝黑板数据内容，而忽略例如BuffNodeDataDic的数据内容）
+        /// 获取一棵树的所有数据（仅深拷贝黑板数据内容，而忽略例如DataDic的数据内容）
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -135,7 +136,7 @@ namespace ETModel
             NP_DataSupportor result = new NP_DataSupportor();
             if (this.m_NpRuntimeTreesDatas.ContainsKey(id))
             {
-                //result.BuffNodeDataDic = this.m_NpRuntimeTreesDatas[id].BuffNodeDataDic;
+                result.DataDic = this.m_NpRuntimeTreesDatas[id].DataDic;
                 result.NpDataSupportorBase = this.m_NpRuntimeTreesDatas[id].NpDataSupportorBase.DeepCopy();
                 return result;
             }

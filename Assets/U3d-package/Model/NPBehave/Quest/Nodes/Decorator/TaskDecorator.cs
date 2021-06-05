@@ -87,14 +87,54 @@ namespace NPBehave
         }
     }
 
-    public class TaskTargetDecorator : TaskDecorator
+    public class TaskTargetDecorator : ObservingDecorator
     {
-        public override string key => base.key;
+        protected int taskId;
+        protected TaskTargetDataBase data;
+        protected NP_RuntimeTree runtimeTree;
 
-        public TaskTargetDecorator(int taskId, Stops stopsOnChange, Node decoratee, string name) : base(taskId, stopsOnChange,
-decoratee, name)
+        protected ATaskTargetSystemBase targetSystem;
+        private string key
         {
+            get { return this.data.key; }
+        }
 
+        public TaskTargetDecorator(NP_RuntimeTree runtimeTree, VTD_Id NodeId, Stops stopsOnChange, Node decoratee):base("TaskTargetDecorator", stopsOnChange,decoratee)
+        {
+            this.data = (runtimeTree.BelongNP_DataSupportor.DataDic[NodeId.Value] as TaskTargetData).BaseData;
+            var taskId = runtimeTree.BelongNP_DataSupportor.NpDataSupportorBase.NPBehaveTreeConfigId;
+            this.taskId = taskId;
+            this.runtimeTree = runtimeTree;
+        }
+
+        protected override void StartObserving()
+        {
+            this.RootNode.Blackboard.AddObserver(key, onValueChanged);
+
+            this.targetSystem = Game.Scene.GetComponent<TaskComponent>().StartObserving(this.taskId, this.data, this.runtimeTree);
+        }
+
+        protected override void StopObserving()
+        {
+            this.RootNode.Blackboard.RemoveObserver(key, onValueChanged);
+
+            if (this.targetSystem != null)
+            {
+                Game.Scene.GetComponent<TaskComponent>().StopObserving(this.targetSystem);
+                this.targetSystem = null;
+            }
+        }
+
+        private void onValueChanged(Blackboard.Type type, ANP_BBValue newValue)
+        {
+            Evaluate();
+        }
+
+        override protected bool IsConditionMet()
+        {
+            NP_BBValue_Int bbValue = this.RootNode.Blackboard.Get<NP_BBValue_Int>(key);
+            var val = bbValue.GetValue();
+            return val >= this.data.count;
         }
     }
 }

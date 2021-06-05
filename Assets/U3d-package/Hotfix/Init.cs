@@ -35,6 +35,7 @@ namespace ETHotfix
                 Game.Scene.AddComponent<NumericWatcherComponent>();
 
                 Game.Scene.AddComponent<ConfigComponent>();
+                Game.Scene.AddComponent<GameEventSystem>();
 
                 //显示登录UI
                 Game.EventSystem.Run(EventIdType.ShowLoginUI);

@@ -33,7 +33,7 @@ namespace Plugins.NodeEditor.Editor.Canvas
         public void AddAllNodeData()
         {
             base.AutoSetCanvasDatas(MNpDataSupportor.NpDataSupportorBase);
-            //this.AutoSetSkillData_NodeData();
+            this.AutoSetTaskTargetData_NodeData();
         }
 
         [Button("保存行为树信息为二进制文件", 25), GUIColor(0.4f, 0.8f, 1)]
@@ -49,7 +49,7 @@ namespace Plugins.NodeEditor.Editor.Canvas
             {
                 BsonSerializer.Serialize(new BsonBinaryWriter(file), MNpDataSupportor);
             }
-
+            AssetDatabase.Refresh();
             Debug.Log($"保存 {SavePath}/{this.Name}.bytes 成功");
         }
 
@@ -71,25 +71,28 @@ namespace Plugins.NodeEditor.Editor.Canvas
             }
         }
 
-        private void AutoSetSkillData_NodeData()
+        private void AutoSetTaskTargetData_NodeData()
         {
-            //if (MNpDataSupportor.BuffNodeDataDic == null) return;
-            //MNpDataSupportor.BuffNodeDataDic.Clear();
+            if (MNpDataSupportor.DataDic == null)
+                MNpDataSupportor.DataDic = new Dictionary<long, NodeDataBase>(); ;
+            MNpDataSupportor.DataDic.Clear();
 
-            //foreach (var node in this.nodes)
-            //{
-            //    if (node is BuffNodeBase mNode)
-            //    {
-            //        mNode.AutoAddLinkedBuffs();
-            //        BuffNodeDataBase buffNodeDataBase = mNode.Skill_GetNodeData();
-            //        if (buffNodeDataBase is NormalBuffNodeData normalBuffNodeData)
-            //        {
-            //            normalBuffNodeData.BuffData.BelongToBuffDataSupportorId = MNpDataSupportor.NpDataSupportorBase.NPBehaveTreeDataId;
-            //        }
+            foreach (var node in this.nodes)
+            {
+                if (node is TaskTargetNodeBase mNode)
+                {
+                    mNode.AutoAddLinkedTargets();
+                    NodeDataBase nodeDataBase = mNode.Target_GetNodeData();
+                    if (nodeDataBase is TaskTargetData targetNodeData)
+                    {
+                        if (targetNodeData.BaseData == null)
+                            targetNodeData.BaseData = new TaskTargetDataBase();
+                        targetNodeData.BaseData.BelongToBuffDataSupportorId = MNpDataSupportor.NpDataSupportorBase.NPBehaveTreeDataId;
+                    }
 
-            //        this.MNpDataSupportor.BuffNodeDataDic.Add(buffNodeDataBase.NodeId.Value, buffNodeDataBase);
-            //    }
-            //}
+                    this.MNpDataSupportor.DataDic.Add(nodeDataBase.NodeId.Value, nodeDataBase);
+                }
+            }
         }
     }
 }
