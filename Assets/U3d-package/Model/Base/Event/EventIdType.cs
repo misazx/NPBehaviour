@@ -65,9 +65,10 @@
         //节点相关
         public const string SendSkillCMD = "SendSkillCMD";
         public const string MoveToRandomPos = "MoveToRandomPos";
-
+        
 
         public const string TaskAccept = "TaskAccept";
+        public const string TaskAbandon = "TaskAbandon";
 
     }
 }

@@ -90,24 +90,24 @@ namespace ETModel
         {
             OneThreadSynchronizationContext.Instance.Update();
 
-            //Game.Hotfix.Update?.Invoke();
+            Game.Hotfix.Update?.Invoke();
             Game.EventSystem.Update();
         }
 
         private void FixedUpdate()
         {
-            this.fixedUpdate.Tick();
+            this.fixedUpdate?.Tick();
         }
 
         private void LateUpdate()
         {
-            //Game.Hotfix.LateUpdate?.Invoke();
+            Game.Hotfix.LateUpdate?.Invoke();
             Game.EventSystem.LateUpdate();
         }
 
         private void OnApplicationQuit()
         {
-            //Game.Hotfix.OnApplicationQuit?.Invoke();
+            Game.Hotfix.OnApplicationQuit?.Invoke();
             Game.Close();
         }
     }

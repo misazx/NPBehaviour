@@ -658,9 +658,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 11400000}
   parentEditor: {fileID: 0}
-  selectedNodes: []
+  selectedNodes:
+  - {fileID: -5708466142243703198}
   panOffset: {x: 0, y: 0}
-  zoom: 2.2
+  zoom: 1.6
   boxSelecting: 0
 --- !u!114 &1932132086071371304
 MonoBehaviour:

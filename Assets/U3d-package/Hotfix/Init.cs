@@ -36,6 +36,7 @@ namespace ETHotfix
 
                 Game.Scene.AddComponent<ConfigComponent>();
                 Game.Scene.AddComponent<GameEventSystem>();
+                Game.Scene.AddComponent<TaskComponent>();
 
                 //显示登录UI
                 Game.EventSystem.Run(EventIdType.ShowLoginUI);

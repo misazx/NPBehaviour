@@ -8,19 +8,24 @@ namespace ETModel
 {
     public class NP_TaskRuntimeTreeFactory
     {
-        public static NP_RuntimeTree CreateTaskNpRuntimeTree(Unit unit, long nPDataId, long belongToTaskId)
+        public static NP_RuntimeTree CreateTaskNpRuntimeTree(Unit unit, long nPDataId, int belongToTaskId)
         {
             NP_RuntimeTree result = NP_RuntimeTreeFactory.CreateNpRuntimeTree(unit, nPDataId);
-            unit.GetComponent<TaskCanvasManagerComponent>()
+            ETModel.Game.Scene.GetComponent<TaskCanvasManagerComponent>()
                     .AddTaskCanvas(belongToTaskId, result);
             return result;
+        }
+
+        public static void RemoveTaskNpRuntimeTree(int belongToTaskId)
+        {
+            ETModel.Game.Scene.GetComponent<TaskCanvasManagerComponent>()
+                    .RemoveTaskCanvas(belongToTaskId);
         }
 
         public static void TestCreateTaskNPRuntimeTree()
         {
             Unit unit = ComponentFactory.Create<Unit>();
             unit.AddComponent<NP_RuntimeTreeManager>();
-            unit.AddComponent<TaskCanvasManagerComponent>();
             unit.AddComponent<UnitPathComponent>();
             unit.AddComponent<MoveComponent>();
 

@@ -45,16 +45,16 @@ namespace ETModel
     #endregion
 
     /// <summary>
-    /// 技能行为树管理器
+    /// 任务行为树管理器
     /// </summary>
     public class TaskCanvasManagerComponent : Component
     {
         #region 私有成员
 
         /// <summary>
-        /// 技能Id与其对应行为树映射,因为一个技能可能由多个行为树组成，所以value使用了List的形式
+        /// 任务Id与其对应行为树映射,因为一个技能可能由多个行为树组成，所以value使用了List的形式
         /// </summary>
-        private Dictionary<long, List<NP_RuntimeTree>> Tasks = new Dictionary<long, List<NP_RuntimeTree>>();
+        private Dictionary<int, List<NP_RuntimeTree>> Tasks = new Dictionary<int, List<NP_RuntimeTree>>();
 
 
         #endregion
@@ -62,7 +62,7 @@ namespace ETModel
         #region 公有成员
 
 
-        public void AddTaskCanvas(long taskId, NP_RuntimeTree npRuntimeTree)
+        public void AddTaskCanvas(int taskId, NP_RuntimeTree npRuntimeTree)
         {
             if (npRuntimeTree == null)
             {
@@ -70,13 +70,21 @@ namespace ETModel
                 return;
             }
 
-            if (Tasks.TryGetValue(taskId, out var skillContent))
+            if (Tasks.TryGetValue(taskId, out var taskContent))
             {
-                skillContent.Add(npRuntimeTree);
+                taskContent.Add(npRuntimeTree);
             }
             else
             {
                 Tasks.Add(taskId, new List<NP_RuntimeTree>() { npRuntimeTree });
+            }
+            var dataDic = npRuntimeTree.BelongNP_DataSupportor.DataDic;
+            foreach (var data in dataDic)
+            {
+                if(data.Value is TaskTargetData targetData)
+                {
+                    Game.Scene.GetComponent<TaskComponent>().StartObserving(taskId, targetData.BaseData, npRuntimeTree);
+                }
             }
         }
 
@@ -85,7 +93,7 @@ namespace ETModel
         /// 获取所有技能行为树
         /// </summary>
         /// <param name="taskId">技能标识</param>
-        public Dictionary<long, List<NP_RuntimeTree>> GetAllTaskCanvas()
+        public Dictionary<int, List<NP_RuntimeTree>> GetAllTaskCanvas()
         {
             return this.Tasks;
         }
@@ -94,7 +102,7 @@ namespace ETModel
         /// 获取行为树
         /// </summary>
         /// <param name="taskId">技能标识</param>
-        public List<NP_RuntimeTree> GetTaskCanvas(long taskId)
+        public List<NP_RuntimeTree> GetTaskCanvas(int taskId)
         {
             if (Tasks.TryGetValue(taskId, out var skillContent))
             {
@@ -111,7 +119,7 @@ namespace ETModel
         /// 移除行为树(移除一个技能标识对应所有图)
         /// </summary>
         /// <param name="taskId">技能标识</param>
-        public void RemoveTaskCanvas(long taskId)
+        public void RemoveTaskCanvas(int taskId)
         {
             foreach (var TaskCanvas in GetTaskCanvas(taskId))
             {
@@ -124,7 +132,7 @@ namespace ETModel
         /// </summary>
         /// <param name="taskId">技能标识</param>
         /// <param name="npRuntimeTree">对应行为树</param>
-        public void RemoveTaskCanvas(long taskId, NP_RuntimeTree npRuntimeTree)
+        public void RemoveTaskCanvas(int taskId, NP_RuntimeTree npRuntimeTree)
         {
             List<NP_RuntimeTree> targetSkillContent = GetTaskCanvas(taskId);
             if (targetSkillContent != null)
@@ -136,6 +144,15 @@ namespace ETModel
                         this.Entity.GetComponent<NP_RuntimeTreeManager>().RemoveTree(npRuntimeTree.Id);
                         targetSkillContent.RemoveAt(i);
                     }
+                }
+            }
+
+            var dataDic = npRuntimeTree.BelongNP_DataSupportor.DataDic;
+            foreach (var data in dataDic)
+            {
+                if (data.Value is TaskTargetData targetData)
+                {
+                    Game.Scene.GetComponent<TaskComponent>().StopObserving(targetData.BaseData.TargetId);
                 }
             }
         }

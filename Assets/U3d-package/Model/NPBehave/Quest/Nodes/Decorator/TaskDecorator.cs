@@ -110,19 +110,11 @@ namespace NPBehave
         protected override void StartObserving()
         {
             this.RootNode.Blackboard.AddObserver(key, onValueChanged);
-
-            this.targetSystem = Game.Scene.GetComponent<TaskComponent>().StartObserving(this.taskId, this.data, this.runtimeTree);
         }
 
         protected override void StopObserving()
         {
             this.RootNode.Blackboard.RemoveObserver(key, onValueChanged);
-
-            if (this.targetSystem != null)
-            {
-                Game.Scene.GetComponent<TaskComponent>().StopObserving(this.targetSystem);
-                this.targetSystem = null;
-            }
         }
 
         private void onValueChanged(Blackboard.Type type, ANP_BBValue newValue)
@@ -132,8 +124,8 @@ namespace NPBehave
 
         override protected bool IsConditionMet()
         {
-            NP_BBValue_Int bbValue = this.RootNode.Blackboard.Get<NP_BBValue_Int>(key);
-            var val = bbValue.GetValue();
+            NP_BBValue_Int bbValue = this.RootNode.Blackboard.Get(key) as NP_BBValue_Int;
+            var val = bbValue!=null?bbValue.GetValue():0;
             return val >= this.data.count;
         }
     }

@@ -22,8 +22,9 @@ namespace ETModel
 		public Dictionary<ETaskTargetType, Type> targetSystems = new Dictionary<ETaskTargetType, Type>();
 
         private LinkedList<ATaskTargetSystemBase> m_Systems = new LinkedList<ATaskTargetSystemBase>();
+        private Dictionary<long,ATaskTargetSystemBase> m_DicSystems = new Dictionary<long, ATaskTargetSystemBase>();
 
-		private LinkedListNode<ATaskTargetSystemBase> m_Current, m_Next;
+        private LinkedListNode<ATaskTargetSystemBase> m_Current, m_Next;
 
         private Dictionary<int, TaskData> m_Data = new Dictionary<int, TaskData>();
 
@@ -85,15 +86,27 @@ namespace ETModel
 			targetSystem.OnInit();
 
 			m_Systems.AddLast(targetSystem);
-			return targetSystem;
+            m_DicSystems.Add(data.TargetId, targetSystem);
+            return targetSystem;
 		}
 
 		public void StopObserving(ATaskTargetSystemBase targetSystem)
 		{
 			targetSystem.OnFinished();
+            m_Systems.Remove(targetSystem);
+            m_DicSystems.Remove(targetSystem.data.TargetId);
 		}
 
-		public void UpdateData(int taskId, TaskData data)
+        public void StopObserving(long targetId)
+        {
+            var targetSystem = m_DicSystems[targetId];
+            if (targetSystem == null)
+                return;
+            m_Systems.Remove(targetSystem);
+            m_DicSystems.Remove(targetId);
+        }
+
+        public void UpdateData(int taskId, TaskData data = null)
         {
             if (data == null)
             {
@@ -113,6 +126,11 @@ namespace ETModel
             m_Data[taskId] = data;
             bool isTaskExist = data != null;
             globalBlackboard.Set<bool>("Exist_" + taskId.ToString(), isTaskExist);
+
+            if (!isTaskExist)
+            {
+                //NP_TaskRuntimeTreeFactory.RemoveTaskNpRuntimeTree(taskId);
+            }
         }
     }
 
@@ -124,6 +142,14 @@ namespace ETModel
                 data = new TaskData(taskId, new Dictionary<long, int>());
 
             Game.Scene.GetComponent<TaskComponent>().UpdateData(taskId, data);
+        }
+    }
+
+    public class ListenTaskAbandonEvent : AEvent<int>
+    {
+        public override void Run(int taskId)
+        {
+            Game.Scene.GetComponent<TaskComponent>().UpdateData(taskId);
         }
     }
 }

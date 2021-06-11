@@ -1,4 +1,5 @@
 using ETModel;
+using ETModel.BBValues;
 
 namespace ETHotfix
 {
@@ -20,12 +21,13 @@ namespace ETHotfix
             Log.Debug("KillMonsterTaskTargetSystem OnFinished...");
 
             Game.Scene.GetComponent<GameEventSystem>().UnRegisterEvent(EventIdType.KillMonster, eve);
+            this.eve = null;
         }
 
 
         public override void OnUpdate()
         {
-            Log.Debug("KillMonsterTaskTargetSystem OnUpdate...");
+            //Log.Debug("KillMonsterTaskTargetSystem OnUpdate...");
         }
 
 
@@ -48,7 +50,8 @@ namespace ETHotfix
 
             var key = sys.data.key;
             var blackboard = sys.BelongtoRuntimeTree.GetBlackboard();
-            int nowCount = blackboard.Get<int>(key);
+            NP_BBValue_Int _nowCount = blackboard.Get(key) as NP_BBValue_Int;
+            int nowCount = _nowCount!=null? _nowCount.GetValue():0;
             int targetCount = nowCount + count;
             blackboard.Set<int>(key, targetCount);
         }
